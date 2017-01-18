@@ -1,0 +1,3 @@
+/* Sundanese (Bahasa Sunda) translation for select2 i18n by Sindu Tama (sindutama4@gmx.com) */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/su",[],function(){return{errorLoading:function(){return"Data teu kenging dicandak."},inputTooLong:function(e){var t=e.input.length-e.maximum;return"Pupuskeun "+t+" hurup"},inputTooShort:function(e){var t=e.minimum-e.input.length;return"Asupkeun "+t+" hurup deui"},loadingMore:function(){return"Nuju nyandak data…"},maximumSelected:function(e){return"Anjeun mung tiasa milih "+e.maximum+" piliheun"},noResults:function(){return"Teu aya data anu saluyu"},searching:function(){return"Nuju milari…"}}}),{define:e.define,require:e.require}})();
